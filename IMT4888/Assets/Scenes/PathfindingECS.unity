@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: e4f56a2b7ec9517479907eb782720a80, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 1a4e0bed61a3ed545bce14ea54ea352a, type: 2}
 --- !u!1 &6843948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,9 +2076,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521529288}
+  - component: {fileID: 1521529291}
+  - component: {fileID: 1521529290}
   - component: {fileID: 1521529289}
   m_Layer: 0
-  m_Name: AgentSpawner
+  m_Name: AgentSpawnerSettings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2105,14 +2107,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 1521529287}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c14c41fbcc73f4a4e95f1c9c4a6d3373, type: 3}
+  m_Script: {fileID: 11500000, guid: 1814d0d05dca55547a9f8cffbeb1c91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numAgents: 1000
-  _spawnAreaObject: {fileID: 1948094786}
-  _agentPrefab: {fileID: 1194682409298896, guid: 9253ba7caa1b2f94591e49296da62238,
-    type: 2}
+  _numberOfAgents: 10000
+  _spawnArea: {fileID: 1948094786}
   _goal: {fileID: 1460212775}
+--- !u!114 &1521529290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521529287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0fd4427893a4a16ba0c267dfd00217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedData:
+    mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+    material: {fileID: 2100000, guid: 76850e714064b714eb163100ba9a9891, type: 2}
+    subMesh: 0
+    castShadows: 0
+    receiveShadows: 0
+--- !u!114 &1521529291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1521529287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1542053474
 GameObject:
   m_ObjectHideFlags: 0
