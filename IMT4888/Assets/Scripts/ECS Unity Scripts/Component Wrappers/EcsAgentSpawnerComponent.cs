@@ -9,4 +9,5 @@ public class EcsAgentSpawnerComponent : MonoBehaviour
     public int _numberOfAgents;
     public GameObject _spawnArea;
     public Transform _goal;
+    public float movementSpeed;
 }

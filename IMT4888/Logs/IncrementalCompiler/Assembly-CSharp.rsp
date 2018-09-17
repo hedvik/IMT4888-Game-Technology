@@ -67,6 +67,7 @@
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEditor.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/Unity.Locator.dll
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.Properties.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Properties.Codegen.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Jobs.dll"
@@ -87,6 +88,8 @@
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.Editor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.TextMeshPro.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponentsEditor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponents.dll"
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
@@ -310,5 +313,6 @@
 -d:ENABLE_VSTU
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/BootstrapperPathfinding.cs"
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/Component Wrappers/EcsAgentSpawnerComponent.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/Systems/StartPathfindingSystem.cs"
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/Regular Unity Scripts/AgentSpawner.cs"
 -v:0
