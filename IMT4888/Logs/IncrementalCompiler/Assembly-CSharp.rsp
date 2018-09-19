@@ -78,8 +78,10 @@
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponentsEditor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponents.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Properties.Editor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Mathematics.dll"
@@ -88,8 +90,8 @@
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.Editor.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.TextMeshPro.dll"
 -r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll"
--r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponentsEditor.dll"
--r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponents.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll"
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
@@ -311,8 +313,11 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
+-d:UNITY_POST_PROCESSING_STACK_V2
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/BootstrapperPathfinding.cs"
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/Component Wrappers/EcsAgentSpawnerComponent.cs"
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/ECS Unity Scripts/Systems/StartPathfindingSystem.cs"
 -i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/Regular Unity Scripts/AgentSpawner.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/Regular Unity Scripts/OrbitAroundTransform.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/Scripts/Regular Unity Scripts/StarSpawner.cs"
 -v:0

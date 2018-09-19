@@ -2,12 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Temp/Unity.Entities.dll"
+-out:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Temp/Assembly-CSharp-Editor.dll"
 -nostdlib
 -unsafe
--r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Collections.dll"
--r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.dll"
--r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Mathematics.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Assembly-CSharp.dll"
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll
@@ -41,6 +39,7 @@
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+-r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll
@@ -70,8 +69,34 @@
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/UnityEditor.dll
 -r:D:\Programfiler\Unity\2018.2.7f1\Editor\Data\Managed/Unity.Locator.dll
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.Properties.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Properties.Codegen.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Jobs.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Jobs.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Properties.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Collections.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponentsEditor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/NavMeshComponents.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Properties.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Mathematics.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Entities.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Transforms.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Burst.Editor.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+-r:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll"
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll
+-r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll
+-r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+-r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll
@@ -311,61 +336,38 @@
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
 -d:UNITY_POST_PROCESSING_STACK_V2
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/AlwaysUpdateSystemAttribute.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ArchetypeManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/AssemblyInfo.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/BinarySerialization.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ChangeVersionUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ChunkAllocator.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ChunkDataUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ChunkListMap.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ComponentJobManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ComponentSystem.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/CopyUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/DisallowRefReturnCrossingThisAttribute.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/EndFrameBarrier.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/EntityCommandBuffer.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/EntityDataManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/EntityManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/EntityRemapUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ExclusiveEntityTransaction.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/HashUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/IComponentData.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/IJobProcessComponentData.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/ComponentSystemInjection.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/InjectAttribute.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/InjectComponentFromEntity.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/InjectComponentGroup.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/InjectionData.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/InjectionHook.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/World.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Injection/WorldDebuggingTools.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ArchetypeChunkArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/BufferArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/BufferFromEntity.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ComponentChunkIterator.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ComponentDataArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ComponentDataFromEntity.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ComponentGroup.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/ComponentGroupArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/DynamicBuffer.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/EntityArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/EntityGroupManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Iterators/SharedComponentDataArray.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/SceneViewWorldPositionAttribute.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ScriptBehaviourManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/ScriptBehaviourUpdateOrder.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/SerializeUtility.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/SharedComponentManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/SortingUtilities.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Stubs/Unity.Assertions/Assert.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Stubs/Unity/Debug.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Stubs/Unity/ProfilerMarker.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/BufferHeader.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/CalculateReaderWriterDependency.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/ComponentType.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/FastEquality.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/TypeManager.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/Types/VoidSystemComponent.cs
--i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.entities@0.0.12-preview.12/Unity.Entities/UnsafeLinkedListNode.cs
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Attributes/PostProcessingModelEditorAttribute.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/AntialiasingModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/BloomModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/BuiltinDebugViewsEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/ChromaticAberrationEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/ColorGradingModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/DefaultPostFxModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/DepthOfFieldModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/DitheringModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/EyeAdaptationModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/FogModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/GrainModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/MotionBlurModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/ScreenSpaceReflectionModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/UserLutModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Models/VignetteModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Monitors/HistogramMonitor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Monitors/ParadeMonitor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Monitors/VectorscopeMonitor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Monitors/WaveformMonitor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PostProcessingBehaviourEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PostProcessingFactory.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PostProcessingInspector.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PostProcessingModelEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PostProcessingMonitor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PropertyDrawers/GetSetDrawer.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Utils/CurveEditor.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Utils/EditorGUIHelper.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Utils/EditorResources.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Utils/FxStyles.cs"
+-i:"C:/Users/Andreas/Git Repos/IMT4888-Game-Technology/IMT4888/Assets/PostProcessing/Editor/Utils/ReflectionUtils.cs"
 -v:0

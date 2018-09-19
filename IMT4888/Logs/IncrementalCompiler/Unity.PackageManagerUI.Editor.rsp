@@ -83,6 +83,7 @@
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+-r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 -r:D:/Programfiler/Unity/2018.2.7f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
 -r:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
 -r:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
@@ -307,6 +308,7 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:ENABLE_VSTU
+-d:UNITY_POST_PROCESSING_STACK_V2
 -i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.package-manager-ui@1.9.11/Editor/AssemblyInfo.cs
 -i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.package-manager-ui@1.9.11/Editor/Sources/External/SemVersion.cs
 -i:C:/Users/Andreas/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.package-manager-ui@1.9.11/Editor/Sources/External/SemVersionExtension.cs
