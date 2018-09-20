@@ -30,10 +30,14 @@ public class StarSpawner : MonoBehaviour {
                 var randomX = Mathf.Cos(Random.Range(0f, 360f));
                 var randomY = Mathf.Sin(Random.Range(0f, 360f));
 
-                // Might want to make use of the axis here somehow
+                // TODO: Might want to make use of the axis here somehow
                 var offsetDirection = new Vector3(randomX, 0, randomY);
 
-                newStar.transform.position = transform.position + (offsetDirection.normalized * (i+1) * _orbitOffset) * (_noiseOffset ? Random.Range(0f, _noiseOffsetAmount) : 1);
+                newStar.transform.position = 
+                    transform.position + 
+                    (offsetDirection.normalized * (i+1) * _orbitOffset) * 
+                    (_noiseOffset ? Random.Range(0f, _noiseOffsetAmount) : 1);
+
                 newStarComponent._speed = _scaleRotationToDistance ? (_speed / (newStar.transform.position - transform.position).magnitude) : _speed;
             }
         }
