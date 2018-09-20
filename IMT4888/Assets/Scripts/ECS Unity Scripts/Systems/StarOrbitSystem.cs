@@ -5,9 +5,11 @@ using UnityEngine;
 using Unity.Jobs;
 using Unity.Transforms;
 using Unity.Mathematics;
+using Unity.Burst;
 
 public class StarOrbitSystem : JobComponentSystem
 {
+    [BurstCompile]
     public struct OrbitJob : IJobProcessComponentData<Position, OrbitingStar>
     {
         public float _deltaTime;

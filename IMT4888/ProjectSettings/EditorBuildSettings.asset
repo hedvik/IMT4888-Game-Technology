@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Transform/TransformOrbit-ECS.unity
+    guid: 6e6241fb09f6153459b77def68bc94ea
   m_configObjects: {}
