@@ -28,7 +28,7 @@ public class StarOrbitSystem : JobComponentSystem
                 math.cos(currentAngle - _deltaTime * starData._speed) * radius + starData._target.x,
                 position.Value.y,
                 math.sin(currentAngle - _deltaTime * starData._speed) * radius + starData._target.z
-                ); ;
+                );
         }
     }
 
