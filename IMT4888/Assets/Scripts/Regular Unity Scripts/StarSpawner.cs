@@ -13,7 +13,7 @@ public class StarSpawner : MonoBehaviour {
     public float _noiseOffsetAmount = 0.5f;
     public bool _scaleRotationToDistance = true;
 
-    public List<Material> materials = new List<Material>();
+    public List<Material> _materials = new List<Material>();
 
     private void Start()
     {
@@ -25,7 +25,7 @@ public class StarSpawner : MonoBehaviour {
                 var newStarComponent = newStar.GetComponent<OrbitAroundTransform>();
                 newStarComponent._axis = _orbitAxis;
                 newStarComponent._target = transform;
-                newStar.GetComponent<MeshRenderer>().material = materials[Random.Range(0, materials.Count)];
+                newStar.GetComponent<MeshRenderer>().material = _materials[Random.Range(0, _materials.Count)];
 
                 var randomX = Mathf.Cos(Random.Range(0f, 360f));
                 var randomY = Mathf.Sin(Random.Range(0f, 360f));

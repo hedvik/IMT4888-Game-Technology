@@ -6,17 +6,19 @@ using Unity.Jobs;
 using Unity.Transforms;
 using Unity.Mathematics;
 using Unity.Burst;
+using Unity.Collections;
+using UnityEngine.Jobs;
 
 public class StarOrbitSystem : JobComponentSystem
 {
     [BurstCompile]
     public struct OrbitJob : IJobProcessComponentData<Position, OrbitingStar>
     {
-        public float _deltaTime;
+        [ReadOnly] public float _deltaTime;
 
         // This should more or less be equivalent of RotateAround() using the Y axis
         // The primary difference is that we do not change any rotation matrices.
-        public void Execute(ref Position position, ref OrbitingStar starData)
+        public void Execute(ref Position position, [ReadOnly] ref OrbitingStar starData)
         {
             // To give some context on the calculations:
             // We know the current position of the star which was randomly placed on the edge of a circle. The center of this circle is also known

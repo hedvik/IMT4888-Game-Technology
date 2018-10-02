@@ -393,7 +393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1484670704}
-  - component: {fileID: 1484670705}
+  - component: {fileID: 1484670706}
   m_Layer: 0
   m_Name: Galaxy
   m_TagString: Untagged
@@ -414,7 +414,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1484670705
+--- !u!114 &1484670706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -422,15 +422,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1484670703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfadc90968523d149b31f94dbfe5265d, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f67449ff0140c34e8b362bb093a8f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _numberOfStars: 10000
   _numberOfOrbits: 100
   _orbitOffset: 0.5
-  _speed: 100
+  _speed: 1
   _orbitAxis: {x: 0, y: 1, z: 0}
-  _starPrefab: {fileID: 1976626494675774, guid: 27f02c6ec4b53f645badc9fe8b85cbda,
+  _starPrefab: {fileID: 1976626494675774, guid: f01105e3921bca04e82b9eaaad8dde06,
     type: 2}
   _noiseOffset: 1
   _noiseOffsetAmount: 0.5
@@ -483,7 +483,7 @@ Prefab:
     - target: {fileID: 114810915421457312, guid: 6867993a7c4d96243ac836bcc641e596,
         type: 2}
       propertyPath: _resultsFileName
-      value: NaiveUnity.csv
+      value: JobOptimizedUnity.csv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867993a7c4d96243ac836bcc641e596, type: 2}
