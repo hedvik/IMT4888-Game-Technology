@@ -483,7 +483,7 @@ Prefab:
     - target: {fileID: 114810915421457312, guid: 6867993a7c4d96243ac836bcc641e596,
         type: 2}
       propertyPath: _resultsFileName
-      value: JobOptimizedUnity.csv
+      value: JobOptimizedUnity_SMAA.csv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867993a7c4d96243ac836bcc641e596, type: 2}
@@ -582,7 +582,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   stopNaNPropagation: 1
-  antialiasingMode: 3
+  antialiasingMode: 2
   temporalAntialiasing:
     jitterSpread: 0.347
     sharpness: 0.25

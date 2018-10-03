@@ -525,6 +525,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 114810915421457312, guid: 6867993a7c4d96243ac836bcc641e596,
+        type: 2}
+      propertyPath: _resultsFileName
+      value: NaiveECS_SMAA.csv
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867993a7c4d96243ac836bcc641e596, type: 2}
   m_IsPrefabAsset: 0

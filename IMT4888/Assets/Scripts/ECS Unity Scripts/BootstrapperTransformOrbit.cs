@@ -63,7 +63,7 @@ public class BootstrapperTransformOrbit
             // The position of each star is determined by three components:
             // 1: The origin of the galaxy
             // 2: a normalized+random vector within a unit circle which is multiplied by orbitIndex and the offset between orbits
-            // 3: If noiseOffset is enabled, we multiply the result with a random value so that each star is not perfectly aligned with their orbit circle
+            // 3: If noiseOffset is enabled, we multiply the result with a random value so that each star is not perfectly aligned with the orbit circle
             float3 starPosition = 
                 _galaxyPosition +
                 (math.normalize(offsetDirection) * (orbitIndex + 1) * _settings._orbitOffset) *
