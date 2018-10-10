@@ -70,6 +70,7 @@ public class BootstrapperTransformOrbit
                 (_settings._noiseOffset ? UnityEngine.Random.Range(0f, _settings._noiseOffsetAmount) : 1);
 
             starData._speed = _settings._scaleRotationToDistance ? (_settings._speed / math.length(starPosition - _galaxyPosition)) : _settings._speed;
+            starData._distanceFromTarget = math.sqrt(math.pow(starPosition.x - starData._target.x, 2) + math.pow(starPosition.z - starData._target.z, 2));
 
             entityManager.SetComponentData(starEntityArray[i], new Position { Value = starPosition });
             entityManager.SetComponentData(starEntityArray[i], new Scale { Value = _settings._starScale });

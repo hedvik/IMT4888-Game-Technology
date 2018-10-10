@@ -21,15 +21,17 @@ public class StarOrbitSystem : JobComponentSystem
         public void Execute(ref Position position, [ReadOnly] ref OrbitingStar starData)
         {
             // To give some context on the calculations:
-            // We know the current position of the star which was randomly placed on the edge of a circle. The center of this circle is also known
+            // We know: 
+            // 1. The current position of the star which was randomly placed on the edge of a circle
+            // 2. The center of this circle is also known
+            // 3. The radius of the circle/the distance from the center
             var currentAngle = math.atan2(position.Value.z - starData._target.z, position.Value.x - starData._target.x);
-            var radius = math.sqrt(math.pow(position.Value.x - starData._target.x, 2) + math.pow(position.Value.z - starData._target.z, 2));
 
             // To simulate the behaviour of RotateAround() we have to look at the current angle and add/subtract (deltaTime*speed) 
             position.Value = new float3(
-                math.cos(currentAngle - _deltaTime * starData._speed) * radius + starData._target.x,
+                math.cos(currentAngle - _deltaTime * starData._speed) * starData._distanceFromTarget + starData._target.x,
                 position.Value.y,
-                math.sin(currentAngle - _deltaTime * starData._speed) * radius + starData._target.z
+                math.sin(currentAngle - _deltaTime * starData._speed) * starData._distanceFromTarget + starData._target.z
                 );
         }
     }

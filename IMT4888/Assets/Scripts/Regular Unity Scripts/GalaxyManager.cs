@@ -13,6 +13,7 @@ public class GalaxyManager : MonoBehaviour
         [ReadOnly] public Vector3 _axis;
         [ReadOnly] public Vector3 _targetPosition;
         [ReadOnly] public NativeArray<float> _speeds;
+        [ReadOnly] public NativeArray<float> _distancesFromCenter;
 
         public void Execute(int index, TransformAccess transform)
         {
@@ -41,7 +42,9 @@ public class GalaxyManager : MonoBehaviour
 
     private List<Transform> _stars = new List<Transform>();
     private List<float> _starSpeeds = new List<float>();
+    private List<float> _distancesFromCenter = new List<float>();
     private NativeArray<float> _nativeStarSpeeds;
+    private NativeArray<float> _nativeDistancesFromCenter;
     private TransformAccessArray _transformAccessArray;
 
     private void Start()
@@ -66,11 +69,13 @@ public class GalaxyManager : MonoBehaviour
 
                 _starSpeeds.Add(_scaleRotationToDistance ? (_speed / (newStar.transform.position - transform.position).magnitude) : _speed);
                 _stars.Add(newStar.transform);
+                _distancesFromCenter.Add(math.sqrt(math.pow(newStar.transform.position.x - transform.position.x, 2) + math.pow(newStar.transform.position.z - transform.position.z, 2)));
             }
         }
 
         _nativeStarSpeeds = new NativeArray<float>(_starSpeeds.ToArray(), Allocator.Persistent);
         _transformAccessArray = new TransformAccessArray(_stars.ToArray());
+        _nativeDistancesFromCenter = new NativeArray<float>(_distancesFromCenter.ToArray(), Allocator.Persistent);
     }
 
     private void Update()
@@ -81,7 +86,8 @@ public class GalaxyManager : MonoBehaviour
             _deltaTime = Time.deltaTime,
             _speeds = _nativeStarSpeeds,
             _axis = _orbitAxis,
-            _targetPosition = transform.position
+            _targetPosition = transform.position,
+            _distancesFromCenter = _nativeDistancesFromCenter
         };
 
         var handle = movementJob.Schedule(_transformAccessArray);
@@ -92,5 +98,6 @@ public class GalaxyManager : MonoBehaviour
     {
         _nativeStarSpeeds.Dispose();
         _transformAccessArray.Dispose();
+        _nativeDistancesFromCenter.Dispose();
     }
 }
