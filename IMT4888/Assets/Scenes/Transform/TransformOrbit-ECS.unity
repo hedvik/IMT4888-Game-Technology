@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedData:
-    mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+    mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
     material: {fileID: 2100000, guid: a89671f85ad47d74da7b1f61355f263b, type: 2}
     subMesh: 0
     castShadows: 0
@@ -528,7 +528,7 @@ Prefab:
     - target: {fileID: 114810915421457312, guid: 6867993a7c4d96243ac836bcc641e596,
         type: 2}
       propertyPath: _resultsFileName
-      value: NaiveECS_SMAA.csv
+      value: NaiveECS_CubeMesh.csv
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6867993a7c4d96243ac836bcc641e596, type: 2}

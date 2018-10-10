@@ -37,7 +37,7 @@ public class PerformanceMeasurer : MonoBehaviour {
     // Based on https://stackoverflow.com/questions/18757097/writing-data-into-csv-file-in-c-sharp
     void WriteResultsToFile()
     {
-        using (var w = new StreamWriter(System.IO.Path.GetDirectoryName(Application.dataPath) + "/Assets/TestResults/" + _resultsFileName))
+        using (var w = new StreamWriter(System.IO.Path.GetDirectoryName(Application.dataPath) + "/Assets/TestResults/CSVs/" + _resultsFileName))
         {
             var column1 = "CapturedFrameNumber";
             var column2 = "LatencyInMs";
