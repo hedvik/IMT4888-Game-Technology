@@ -18,7 +18,7 @@ public class GalaxyManager : MonoBehaviour
         public void Execute(int index, TransformAccess transform)
         {
             var currentAngle = math.atan2(transform.position.z - _targetPosition.z, transform.position.x - _targetPosition.x);
-            var radius = math.sqrt(math.pow(transform.position.x - _targetPosition.x, 2) + math.pow(transform.position.z - _targetPosition.z, 2));
+            var radius = _distancesFromCenter[index];
 
             transform.position = new Vector3(
                 math.cos(currentAngle - _deltaTime * _speeds[index]) * radius + _targetPosition.x,
